@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    auth:
+      path: /auth/**
+      url: http://localhost:2137/auth/realms/blog/protocol/openid-connect/token
